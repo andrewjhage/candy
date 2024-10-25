@@ -1,13 +1,13 @@
 import './App.css';
 import Header from './Header';
-import MeetingList from './MeetingList';
+import CandyContainer from './CandyContainer';
 
 function App() {
   const headingTitle = 'Charlies Chocolate Factory';
   return (
     <div className="App">
       <Header headingText = {headingTitle}/>
-      <MeetingList/>
+      <CandyContainer/>
     </div>
   );
 }
