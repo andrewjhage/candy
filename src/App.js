@@ -3,7 +3,7 @@ import Header from './Header';
 import MeetingList from './MeetingList';
 
 function App() {
-  const headingTitle = 'CIT 313 Introduction To React';
+  const headingTitle = 'Charlies Chocolate Factory';
   return (
     <div className="App">
       <Header headingText = {headingTitle}/>

@@ -1,24 +1,67 @@
 /** @format */
 
+
 const meetings = [
     {
-        topic: "CIT Monthly Meeting",
-        dateTime: "Sept 19th 2024, 2PM-3PM",
-        location: "Knoy Hall West Lafayette",
-        parking: "Midway Garage",
+        type: "Plain Milk",
+        calories: "110 calories",
+        chocolate: "smooth milk chocolate",
+        ingredients: "cocoa butter, milk, sugar",
     },
     {
-        topic: "Research In Higher Level Ed",
-        dateTime: "September 24th 2024, 1PM-5PM",
-        location: "Stuart Buildings, West Lafayette",
-        parking: "Street Level",
+        type: "Plain Dark",
+        calories: "100 calories",
+        chocolate: "smooth dark chocolate",
+        ingredients: "cocoa butter, milk, sugar",
     },
     {
-        topic: "Curriculum Planning",
-        dateTime: "October 19th 2024, 4PM-6PM",
-        location: "IO 240, Indianapolis",
-        parking: "North Street Garage",
+        type: "Plain Hybrid",
+        calories: "105 calories",
+        chocolate: "smooth milk chocolate and dark chocolate side by side",
+        ingredients: "cocoa butter, milk, sugar",
     },
+    {
+        type: "Nut Butter Cup",
+        calories: "130 calories",
+        chocolate: "smooth milk chocolate with Bailey's Irish Cream filling",
+        ingredients: "cocoa butter, milk, sugar, Bailey's Cream filling",
+    },
+    {
+        type: "Rum Barrel",
+        calories: "110 calories",
+        chocolate: "smooth dark chocolate with rum-coconut filling",
+        ingredients: "cocoa butter, milk, sugar, rum, coconut",
+    },
+    {
+        type: "Orange Fondant",
+        calories: "125 calories",
+        chocolate: "dark chocolate with orange fondant filling",
+        ingredients: "cocoa butter, milk, sugar, orange cream, orange zest",
+    },
+    {
+        type: "Cappuccino Cup",
+        calories: "130 calories",
+        chocolate: "dark chocolate with coffee cream filling",
+        ingredients: "cocoa butter, milk, sugar, coffee vanilla cream, grated coffee beans",
+    },
+    {
+        type: "Pistachio Diamond",
+        calories: "140 calories",
+        chocolate: "milk chocolate, almond butter filling, large pistachio",
+        ingredients: "cocoa butter, milk, sugar, nut butter, pistachio",
+    },
+    {
+        type: "Toffee Crunch",
+        calories: "130 calories",
+        chocolate: "dark chocolate, soft toffee filling, rock salt and peanut brittle",
+        ingredients: "cocoa butter, milk, sugar, toffee, salt, toffee brittle",
+    },
+    {
+        type: "Raspberry Truffle",
+        calories: "140 calories",
+        chocolate: "dark chocolate with raspberry filling ",
+        ingredients: "cocoa butter, milk, sugar, raspberry cream",
+    }
 ];
 
 export default meetings;

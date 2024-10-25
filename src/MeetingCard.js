@@ -17,7 +17,7 @@ const MeetingCard = ({meeting}) => {
         <div className="meeting-card">
             <img
                 src="purduepete.jpg"
-                alt="Purdue Pete"
+                alt="Chocolate"
                 style={{
                     padding: '10px 20px',
                     textAlign: 'center',
@@ -26,16 +26,16 @@ const MeetingCard = ({meeting}) => {
                     width: '50px',
                 }}
             />
-            <h3>{meeting.topic}</h3>
-            <p>{meeting.dateTime}</p>
-            <p>{meeting.location}</p>
+            <h3>{meeting.type}</h3>
+            <p>{meeting.chocolate}</p>
+            <p>{meeting.ingredients}</p>
 
-            <button onClick={handleOpenModal}>Show Parking Info</button>
+            <button onClick={handleOpenModal}>Show Calorie Information</button>
             {showModal && (
                 <div className="modal-overlay" onClick={handleCloseModal}>
                     <div className="modal" onClick={(e) => e.stopPropagation()}>
-                        <h4>Parking Information</h4>
-                        <p>{meeting.parking}</p>
+                        <h4>Choose Your Favorite Chocolate!</h4>
+                        <p>{meeting.calories}</p>
                         <button onClick={handleCloseModal}>Close</button>
                     </div>
                 </div>
