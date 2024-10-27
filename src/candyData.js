@@ -1,6 +1,7 @@
 /** @format */
 
-
+/* Defines an array of candy objects that represent
+different types of candy with their properties */
 const candy = [
     {
         name: "Plain Milk",
@@ -73,5 +74,5 @@ const candy = [
         image: "/images/raspberryTruffle.jpeg",
     }
 ];
-
+// Exports the candy array to be imported in other files
 export default candy;
