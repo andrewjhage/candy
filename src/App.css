@@ -1,7 +1,8 @@
+/* Styles the main container of the app */ 
 .App {
   text-align: center;
 }
-
+/* Styles the header of the app */
 .App-header {
   background-color: #282c34;
   display: flex;
@@ -12,12 +13,12 @@
   color: white;
   height: 200px;
 }
-
+/*Styles the link in the app */
 .App-link {
   color: #61dafb;
 }
 
-
+/* Styles the individual cards */
 .candy-card {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -26,13 +27,13 @@
   width: 400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+/* Container for holding multiple candy cards*/
 .candy_container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+/* Styles the modal window */
 .modal {
   position: fixed;
   top: 10%;
@@ -44,7 +45,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 300px;
 }
-
+/* Styles the overlay behind the modal */
 .modal-overlay {
   position: fixed;
   top: 0;
