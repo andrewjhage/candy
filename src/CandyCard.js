@@ -16,8 +16,8 @@ const CandyCard = ({candy}) => {
     return (
         <div className="candy-card">
             <img
-                src="purduepete.jpg"
-                alt="Chocolate"
+                src={candy.image}
+                alt={candy.name}
                 style={{
                     padding: '10px 20px',
                     textAlign: 'center',
@@ -27,14 +27,14 @@ const CandyCard = ({candy}) => {
                 }}
             />
             <h3>{candy.name}</h3>
-            <p>{candy.chocolate}</p>
-            <p>{candy.ingredients}</p>
 
-            <button onClick={handleOpenModal}>Show Calorie Information</button>
+            <button onClick={handleOpenModal}>Calories</button>
             {showModal && (
                 <div className="modal-overlay" onClick={handleCloseModal}>
                     <div className="modal" onClick={(e) => e.stopPropagation()}>
-                        <h4>Choose Your Favorite Chocolate!</h4>
+                        <h4>Candy Information</h4>
+                        <p>{candy.chocolate}</p>
+                        <p>{candy.ingredients}</p>
                         <p>{candy.calories}</p>
                         <button onClick={handleCloseModal}>Close</button>
                     </div>
